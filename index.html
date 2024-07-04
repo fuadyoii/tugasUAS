@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MadsCam</title>
+ 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+    <!-- feather icon -->
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- feather end -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">FuadSidqi</a>
+
+      <div class="navbar-nav">
+        <a href="#home">102230058</a>
+        <a href="#about">IM23B</a>
+      </div>
+
+      <div class="navbar-extra">
+        
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- hero section -->
+     <section class="hero" id="home">
+      <main class="content">
+        <h1>Tugas Organisasi Arsitektur Komputer</h1>
+        <p>Mohon Maaf Apabila Masih Banyak Kesalahan</p>
+        <div class="cta">
+          <a href="#floating" class="active">Floating Point</a>
+        </div>
+      </main>
+     </section>
+
+    <!-- hero section end -->
+
+    <!-- About Section -->
+     <section id="jwb" class="jwb1">
+      <h2>1. Bagaimana System Bus dapat mempengaruhi kecepatan efesiensi sistem komputer?</h2>
+
+      <div class="row">
+      <div class="jwb1-img">
+        <img src="img/tc.jpg" width="100%" height="10%" alt="tentang kami">
+      </div>
+
+      <div class="content">
+        <p>System Bus mempengaruhi kecepatan dan efisiensi sistem komputer melalui beberapa aspek kunci. Pertama-tama, kecepatan transfer data yang tinggi memungkinkan informasi bergerak cepat antara CPU, RAM, dan perangkat I/O, secara langsung meningkatkan kinerja keseluruhan sistem. Kedua, bandwidth yang besar memungkinkan lebih banyak data untuk ditransfer secara simultan, mengurangi waktu yang diperlukan untuk tugas-tugas data intensif dan meningkatkan efisiensi sistem secara keseluruhan. Selain itu, latensi yang rendah dalam transfer data mempercepat responsivitas sistem, mengurangi waktu tunggu, dan meningkatkan pengalaman pengguna. System Bus yang efisien juga mengurangi overhead, seperti sinyal kontrol dan pengelolaan jalur, membebaskan lebih banyak bandwidth untuk penggunaan data yang sebenarnya, yang mengoptimalkan efisiensi transfer. Kompatibilitas yang baik antara komponen-komponen sistem juga penting, memastikan komunikasi yang lancar dan tanpa hambatan, mengurangi kemungkinan kesalahan atau penundaan yang dapat memperlambat kinerja sistem secara keseluruhan. Akhirnya, desain dan arsitektur System Bus yang baik, seperti bus dengan dukungan transfer paralel atau teknologi high-speed seperti PCIe, dapat signifikan meningkatkan kinerja sistem dan memfasilitasi penambahan komponen baru tanpa mengorbankan efisiensi atau skalabilitas.</p>
+      </div>
+      </div>
+     </section>
+
+     <section id="jwb" class="jwb2">
+      <h2>2. Bagaimana penggunaan buffer dapat meningkatkan efesiensi operasi I/O?</h2>
+
+      <div class="row">
+      <div class="jwb2-img">
+        <img src="img/tb.jpg" width="100%" height="10%" alt="tentang kami">
+      </div>
+
+      <div class="content">
+        <p>Penggunaan buffer dalam operasi I/O (Input/Output) dapat meningkatkan efisiensi sistem komputer dengan cara berikut: <br></p>
+        <div class="center"><p>
+          1. Pengurangan Waktu Tunggu (Latency Reduction): <br>
+             - Buffer memungkinkan penyimpanan sementara data sebelum diproses atau ditransfer lebih lanjut, mengurangi waktu tunggu operasi I/O. <br>
+             - Batch processing memungkinkan pengumpulan data dalam buffer untuk diproses atau ditransfer dalam batch besar, mengurangi overhead yang terkait dengan operasi I/O individu. <br>
+          2. Pengurangan Frekuensi I/O: <br>
+             - Buffer mengumpulkan data sebelum menulis atau membaca dari perangkat, mengurangi jumlah operasi I/O yang dilakukan. <br>
+             - Dengan menyimpan data dalam blok besar, buffer mengurangi frekuensi operasi baca/tulis ke disk, mengurangi jumlah pencarian disk (disk seeks) dan meningkatkan efisiensi. <br>
+          3. Penyesuaian Perbedaan Kecepatan (Smoothing Data Rate Variations): <br>
+             - Buffer membantu menyesuaikan kecepatan antara pengirim dan penerima data dengan menyimpan data dalam buffer sebelum dikirimkan. <br>
+             - Flow control buffer mengatur aliran data untuk memastikan penerima tidak kewalahan dan memproses data secara efisien. <br>
+          4. Meningkatkan Throughput: <br>
+             - Buffer meningkatkan throughput sistem dengan mengoptimalkan transfer data antara perangkat dan sistem. <br>
+             - Transfer data dalam mode burst memungkinkan transfer data dalam jumlah besar secara cepat, meningkatkan efisiensi dibandingkan dengan transfer kecil berulang. <br>
+          
+          5. Penanganan Kesalahan dan Integritas Data: <br>
+             - Buffer membantu dalam penanganan kesalahan dengan menyimpan data sementara untuk pemeriksaan kesalahan sebelum dikirim ke tujuan akhir. <br>
+             - Buffer memastikan integritas data dengan memastikan pengiriman data dalam urutan yang benar dan konsisten. <br>
+          Contoh penggunaan praktis buffer meliputi penggunaan dalam sistem operasi untuk operasi file, jaringan untuk pengelolaan data antara pengirim dan penerima, serta dalam pencetakan dokumen untuk memastikan proses pencetakan berjalan lancar. <br>
+          Dengan demikian, penggunaan buffer membantu meningkatkan efisiensi operasi I/O dalam sistem komputer dengan mengurangi latensi, meningkatkan throughput, dan menjaga integritas data, yang krusial untuk performa sistem yang optimal.</p>
+          </div>
+      </div>
+      </div>
+     </section>
+
+      <section id="jwb" class="jwb3">
+      <h2>3. Bagaimana cara kerja sebuah ALU (Arithmetic Logic Unit)? Berikan contoh operasi yang dapat               dilakukan oleh ALU!</h2>
+
+      <div class="row">
+      <div class="jwb3-img">
+        <img src="img/ta.jpg" width="100%" height="10%" alt="tentang kami">
+      </div>
+
+      <div class="content">
+        <p>ALU (Arithmetic Logic Unit) adalah bagian CPU yang melakukan operasi matematika (seperti penjumlahan, pengurangan, perkalian, pembagian) dan operasi logika (seperti AND, OR, NOT, XOR) pada data. Cara kerjanya melibatkan menerima instruksi dari CPU, menjalankan operasi berdasarkan instruksi tersebut pada data yang diterima, dan menghasilkan output hasil operasi. Contoh operasi yang dilakukan ALU.</p>
+      <div class="center"><p> Cara kerja sebuah Arithmetic Logic Unit (ALU) adalah sebagai berikut: <br><br>
+          1. Input Operands: Menerima data dari register CPU. <br>
+          2. Control Unit Signals: Menerima sinyal yang menentukan operasi yang harus dilakukan. <br>
+          3. Perform Operation: Melakukan operasi aritmatika atau logika yang diminta. <br>
+          4. Output Result: Menyimpan hasil operasi kembali ke register atau memori. <br>
+          5. Set Flags: Mengatur bendera status seperti overflow, zero, carry, dll. <br>
+          Contoh Operasi ALU <br> <br>
+          Operasi Aritmatika <br>
+         - Penjumlahan (Addition): \( A + B \) <br>
+         - Pengurangan (Subtraction): \( A - B \) <br>
+         - Perkalian (Multiplication): \( A \times B \) <br>
+         - Pembagian (Division): \( A / B \) <br> <br>
+         
+          Operasi Logika <br>
+         - AND: \( A \land B \) <br>
+         - OR: \( A \lor B \) <br>
+         - NOT: \( \neg A \) <br>
+         - XOR: \( A \oplus B \) <br>
+         - NAND: \( \overline{A \land B} \) <br> <br>
+
+         Operasi Perbandingan <br>
+         - Equal To: \( A = B \) <br>
+         - Greater Than: \( A > B \) <br>
+         - Less Than: \( A < B \) <br>
+         
+         ALU menangani operasi aritmatika dan logika, serta memberikan hasil dan status operasi ke sistem CPU.
+        </p>
+      </div>
+      </div>
+      </div>
+     </section>
+
+     <section id="jwb" class="jwb4">
+      <h2>4. Jelaskan peran register dan Control Unit dalam eksekusi instruksi dalam CPU! Peran Register dan Control Unit dalam Eksekusi Instruksi dalam CPU</h2>
+
+      <div class="row">
+      <div class="jwb4-img">
+        <img src="img/tx.jpg" width="100%" height="10%" alt="tentang kami">
+      </div>
+
+      <div class="content">
+        <p>peran register dan Control Unit dalam eksekusi instruksi dalam CPU:</p><br>
+        <div class="center">
+          <p>Register <br>
+          1.Penyimpanan Sementara: Menyimpan data dan instruksi sementara yang sedang diproses. <br>
+          2.Eksekusi Instruksi: Menyimpan instruksi dan data yang diperlukan untuk eksekusi. <br>
+          3.Alamat Memori: Menyimpan alamat instruksi berikutnya yang akan dieksekusi. <br>
+          4.Operasi Aritmatika dan Logika: Menyimpan hasil sementara dari operasi aritmatika dan logika. <br>
+          5.Percepatan Proses: Memungkinkan akses data dan instruksi dengan sangat cepat. <br> <br>
+          Control Unit (CU) <br>
+          1.Pengendalian Eksekusi Instruksi: Mengendalikan dan mengkoordinasikan eksekusi instruksi. <br>
+          2.Fetch, Decode, Execute Cycle: Mengelola siklus fetch, decode, dan execute. <br>
+          3.Pengelolaan Register: Mengontrol penggunaan register. <br>
+          4.Pengendalian Aliran Data: Mengarahkan aliran data antara CPU, memori, dan perangkat I/O. <br>
+          5.Sinkronisasi Operasi: Menjamin operasi dilakukan secara sinkron dan teratur. <br>
+          6.Penanganan Interrupt: Menangani gangguan selama eksekusi instruksi. <br><br>
+          Register dan Control Unit bekerja bersama untuk memastikan eksekusi instruksi dalam CPU berjalan efisien dan efektif.</p>
+          </div>
+      </div>
+      </div>
+     </section>
+
+     <section id="jwb" class="jwb5">
+      <h2>5. Bagaimana set instruksi mempengaruhi kinerja sebuah CPU? Berikan contoh!</h2>
+
+      <div class="row">
+      <div class="jwb5-img">
+        <img src="img/tc.jpg" width="100%" height="10%" alt="tentang kami">
+      </div>
+
+      <div class="content">
+        <p>Pengaruh Set Instruksi pada Kinerja CPU</p><br><br>
+        <div class="center">
+        <p>
+          1. Kompleksitas Instruksi: <br>
+             - CISC (Complex Instruction Set Computing): Instruksi kompleks yang dapat menyelesaikan tugas-tugas rumit dalam satu instruksi. Contoh: arsitektur x86. Lebih fleksibel tapi bisa lebih lambat per instruksi. <br>
+             - RISC (Reduced Instruction Set Computing): Instruksi sederhana yang biasanya dieksekusi dalam satu siklus clock. Contoh: arsitektur ARM. Lebih cepat per instruksi tapi memerlukan lebih banyak instruksi untuk tugas kompleks. <br>
+          
+          2. Jumlah Instruksi: <br>
+             - Set instruksi besar (CISC) memberikan fleksibilitas dan efisiensi pengkodean. <br>
+             - Set instruksi kecil (RISC) meningkatkan efisiensi eksekusi dan optimisasi. <br>
+          
+          3. Efisiensi Pengkodean: <br>
+             - Instruksi kompleks mengurangi jumlah instruksi yang dibutuhkan. <br>
+             - Instruksi sederhana memungkinkan eksekusi lebih cepat. <br>
+          
+          4. Pipeline dan Paralelisme: <br>
+             - Instruksi sederhana (RISC) memungkinkan pipeline yang lebih efisien. <br>
+             - Instruksi kompleks (CISC) dapat menghambat pipeline. <br>
+          
+          5. Optimisasi Compiler: <br>
+             - Instruksi sederhana memudahkan optimisasi oleh compiler. <br>
+             - Instruksi kompleks dapat menghasilkan kode lebih efisien dalam beberapa situasi. <br><br>
+          
+           Contoh <br><br>
+          
+          1. x86 (CISC): <br>
+             - Instruksi MOV: Memindahkan data dalam satu instruksi. <br>
+             - Instruksi LOOP: Mengurangi nilai register dan mengulangi instruksi dalam satu instruksi. <br>
+          
+          2. ARM (RISC): <br>
+             - Instruksi ADD: Menambahkan dua register dalam satu siklus clock. <br>
+             - Instruksi SUB: Mengurangi satu register dari register lain dalam satu siklus clock. <br><br>
+          
+           Kesimpulan <br>
+          
+          Set instruksi mempengaruhi kinerja CPU dengan menentukan kompleksitas dan kecepatan eksekusi instruksi. Arsitektur CISC cocok untuk tugas kompleks dengan lebih sedikit instruksi, sementara arsitektur RISC cocok untuk eksekusi cepat dengan instruksi sederhana. Pemilihan set instruksi tergantung pada kebutuhan aplikasi dan sistem.</p>
+          </div>
+      </div>
+      </div>
+     </section>
+
+     <section id="floating" class="floating">
+      <h2><span>Floating</span>Point</h2>
+
+      <div class="row">
+      <div class="floating-img">
+        <img src="img/floating/floating1.jpg" alt="jawaban" width="45%" height="45%">
+        <img src="img/floating/floating2.jpg" alt="jawaban" width="45%" height="45%">
+        <img src="img/floating/floating3.jpg" alt="jawaban" width="45%" height="45%">
+      </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+  
+       <!-- footer  -->
+       <footer>
+        <div class="social">
+          <a href="https://instagram.com/fuadsidqii"><i data-feather="instagram">Instagram</i></a>
+          <a href=""><i data-feather="facebook">Facebook</i></a>
+          <a href=""><i data-feather="phone-call">Handphone</i></a>
+        </div>
+
+        <div class="credit">
+          <p>Created by <a href="">FuadSidqi</a>. | &copy; 2024</p>
+        </div>
+       </footer>
+      <!-- footer  end-->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
